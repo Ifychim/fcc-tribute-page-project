@@ -1,9 +1,11 @@
 /*  General Selectors */
-body{
+body
+{
     background-color: gray;
 }
 
-p{
+p
+{
     color: black;
 }
 
@@ -11,49 +13,77 @@ p{
 
 
 /*  ID Selectors (#)   */
-#main{
+#main
+{
     padding: 0px 20px 0px 20px;
 }
 
-#title{
-    border: 3px solid black;
+#title
+{
+    /*border: 3px solid black;*/
     text-align: center;
 }
-#title p{
+
+#title p
+{
     font-size: 15px;
 }
-#title h3{
+
+#title h3
+{
     font-size: 30px;
     color: black;
+    
 }
 
-#img-div{
+#img-div
+{
     position: relative;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     background-color: white;
     height: 500px;   
 }
-#image{
-    margin: 10px auto 0px auto;
-    border: 3px solid yellow;
+
+#image
+{
+    margin: 0px auto 0px auto;
+    padding-top: 10px;
+    /*border: 3px solid yellow;*/
     height: 400px;
     display: block;
-    max-width: 500px;
+    max-width: 100%;
     
 }
-#img-caption{
-    
+
+#img-caption
+{
     text-align: center;
     margin-bottom: 10px;
 }
-#tribute-info{
-    
-    border: 3px solid black;
+
+#tribute-timeline-list
+{
+    text-align: center;
+    /*border: 3px solid black;*/
 }
-#tribute-info li{
+
+#tribute-info li
+{
     color: black;
     margin: 15px 0px 0px 0px;
 }
+
+#tribute-info h3
+{
+    text-align: center;
+}
+
+#tribute-info p
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 
 /*  Pseudo-Class Selectors  */
