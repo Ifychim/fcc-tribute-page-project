@@ -1,0 +1,37 @@
+/*  General Selectors */
+body{
+    background-color: #242333;
+}
+
+p{
+    color: red;
+}
+li{
+    color: red;
+}
+h3{
+    color:wheat;
+    font-weight: bolder;
+}
+/*  Class Selectors (.) */
+
+
+/*  ID Selectors (#)   */
+#main{
+
+}
+
+#title{
+
+}
+
+#img-div{
+
+}
+
+#tribute-info{
+    
+}
+
+
+/*  Pseudo-Class Selectors  */
