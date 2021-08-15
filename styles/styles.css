@@ -1,36 +1,58 @@
 /*  General Selectors */
 body{
-    background-color: #242333;
+    background-color: gray;
 }
 
 p{
-    color: red;
+    color: black;
 }
-li{
-    color: red;
-}
-h3{
-    color:wheat;
-    font-weight: bolder;
-}
+
 /*  Class Selectors (.) */
 
 
 /*  ID Selectors (#)   */
 #main{
-
+    padding: 0px 20px 0px 20px;
 }
 
 #title{
-
+    border: 3px solid black;
+    text-align: center;
+}
+#title p{
+    font-size: 15px;
+}
+#title h3{
+    font-size: 30px;
+    color: black;
 }
 
 #img-div{
-
+    position: relative;
+    border: 3px solid red;
+    background-color: white;
+    height: 500px;   
 }
-
+#image{
+    margin: 10px auto 0px auto;
+    border: 3px solid yellow;
+    height: 400px;
+    display: block;
+    max-width: 500px;
+    
+}
+#img-caption{
+    
+    text-align: center;
+    margin-bottom: 10px;
+}
 #tribute-info{
     
+    border: 3px solid black;
+}
+#tribute-info li{
+    color: black;
+    margin: 15px 0px 0px 0px;
 }
 
 
